@@ -3,12 +3,12 @@ Type: Package
 Title: Client for ResourceSync
 Description: Client for the ResourceSync Framework 
     <http://www.openarchives.org/rs/1.1/resourcesync>.
-Version: 0.0.1.9100
+Version: 0.0.1.91
 Authors@R: c(person("Scott", "Chamberlain", role = c("aut", "cre"),
-    email = "sckott@protonmail.com"))
+    email = "myrmecocystus@gmail.com"))
 License: MIT + file LICENSE
-URL: https://github.com/ropenscilabs/rresync
-BugReports: https://github.com/ropenscilabs/rresync/issues
+URL: https://github.com/sckott/rresync
+BugReports: https://github.com/sckott/rresync/issues
 Roxygen: list(markdown = TRUE)
 Imports:
     crul (>= 0.5.2),

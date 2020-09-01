@@ -4,7 +4,7 @@ ct <- function(l) Filter(Negate(is.null), l)
 #   versions <- c(
 #     paste0("r-curl/", utils::packageVersion("curl")),
 #     paste0("crul/", utils::packageVersion("crul")),
-#     sprintf("rOpenSci(rresync/%s)", utils::packageVersion("rresync"))
+#     sprintf("rresync/%s", utils::packageVersion("rresync"))
 #   )
 #   paste0(versions, collapse = " ")
 # }

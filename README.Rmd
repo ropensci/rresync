@@ -10,8 +10,8 @@ knitr::opts_chunk$set(
 )
 ```
 
-[![Build Status](https://travis-ci.org/ropenscilabs/rresync.svg?branch=master)](https://travis-ci.org/ropenscilabs/rresync)
-[![codecov.io](https://codecov.io/github/ropenscilabs/rresync/coverage.svg?branch=master)](https://codecov.io/github/ropenscilabs/rresync?branch=master)
+[![Build Status](https://travis-ci.org/sckott/rresync.svg?branch=master)](https://travis-ci.org/sckott/rresync)
+[![codecov.io](https://codecov.io/github/sckott/rresync/coverage.svg?branch=master)](https://codecov.io/github/sckott/rresync?branch=master)
 [![rstudio mirror downloads](http://cranlogs.r-pkg.org/badges/rresync)](https://github.com/metacran/cranlogs.app)
 [![cran version](http://www.r-pkg.org/badges/version/rresync)](https://cran.r-project.org/package=rresync)
 
@@ -23,7 +23,7 @@ knitr::opts_chunk$set(
 Development version
 
 ```{r eval=FALSE}
-devtools::install_github("ropenscilabs/rresync")
+remotes::install_github("sckott/rresync")
 ```
 
 ```{r}
@@ -40,10 +40,7 @@ xxxx
 
 ## Meta
 
-* Please [report any issues or bugs](https://github.com/ropenscilabs/rresync/issues).
+* Please [report any issues or bugs](https://github.com/sckott/rresync/issues).
 * License: MIT
 * Get citation information for `rresync` in R doing `citation(package = 'rresync')`
 * Please note that this project is released with a [Contributor Code of Conduct](CODE_OF_CONDUCT.md). By participating in this project you agree to abide by its terms.
-
-[docs]: http://apiv3.iucnredlist.org/api/v3/docs
-[token]: http://apiv3.iucnredlist.org/api/v3/token
